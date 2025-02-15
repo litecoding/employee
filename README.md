@@ -33,7 +33,7 @@ API документація описана за допомогою NelmioApiDoc
 ## 📥 Клонування проєкту
 
 ```sh
-git clone https://github.com/employee/auto
+git clone https://github.com/litecoding/employee.git
 cd employee
 ```
 
@@ -57,13 +57,13 @@ docker-compose exec php2 composer install
 
 ## 🛠️ Накатка міграцій
 ```sh
-docker-compose exec php bin/console doctrine:migrations:migrate
+docker-compose exec php2 bin/console doctrine:migrations:migrate
 ```
 
 ## ⚡ Очистка кешу
 
 ```sh
-docker-compose exec php bin/console cache:clear
+docker-compose exec php2 bin/console cache:clear
 ```
 
 ## 📌 Перевірка API документації
